@@ -13,9 +13,9 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class Util {
-    private static final String URL = "jdbc:mysql://localhost:3306/test";
-    private static final String USER = "root";
-    private static final String PASS = "test123";
+    private static final String URL = "jdbc:mysql://localhost:3306/bntouch";
+    private static final String USER = "user";
+    private static final String PASS = "password";
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String DIALECT = "org.hibernate.dialect.MySQL5Dialect";
     private static SessionFactory sessionFactory;
